@@ -2660,7 +2660,7 @@ bool CBlock::CheckBlock(bool fCheckPOW, bool fCheckMerkleRoot, bool fCheckSig) c
         		masternodePaymentAmount = 0.35 * COIN;
       		      } else if (nBestHeight+1 >= 2000000) {
         		masternodePaymentAmount = 0.30 * COIN;
-      		      } else if (nBestHeight+1 >= 2000000) {
+      		      } else if (nBestHeight+1 >= 2500000) {
         		masternodePaymentAmount = 0.25 * COIN;
       		      }
     		    }
